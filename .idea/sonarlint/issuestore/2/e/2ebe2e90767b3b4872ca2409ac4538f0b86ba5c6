@@ -1,0 +1,16 @@
+
+S
+java:S1128"7Remove this unused import 'jakarta.persistence.Column'.(Ó‰ÙE8õÇ”ÜØ0
+X
+java:S1128";Remove this unused import 'jakarta.persistence.JoinColumn'.(İçÆ•8öÇ”ÜØ0
+[
+java:S1128"9Remove this unused import 'jakarta.persistence.OneToOne'.(Ç­É™üÿÿÿÿ8öÇ”ÜØ0
+I
+java:S1068	",Remove this unused "workerId" private field.(åş’8¾„„ÛØ0
+R
+java:S1068
+"0Remove this unused "usedLeaveDay" private field.(–œİÚøÿÿÿÿ8¾„„ÛØ0
+I
+java:S1068",Remove this unused "leaveDay" private field.(Å†âŠ8¾„„ÛØ0
+L
+java:S1068"*Remove this unused "worker" private field.(×°…©üÿÿÿÿ8¿„„ÛØ0

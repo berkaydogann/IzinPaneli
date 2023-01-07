@@ -1,0 +1,12 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(¨ğ‡8¦õ§ÜØ0
+e
+java:S1128"HRemove this unused import 'com.modul.IzinPaneli.entity.WorkerLeaveInfo'.(Åêáó8§õ§ÜØ0
+S
+java:S1128"7Remove this unused import 'jakarta.persistence.Column'.(Ó‰ÙE8ÒóòÛØ0
+X
+java:S1128";Remove this unused import 'jakarta.persistence.JoinColumn'.(İçÆ•8ÒóòÛØ0
+[
+java:S1128"9Remove this unused import 'jakarta.persistence.OneToOne'.(Ç­É™üÿÿÿÿ8ÓóòÛØ0
+M
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8§õ§ÜØ0

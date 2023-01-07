@@ -1,0 +1,13 @@
+
+—
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¥ÿí
+—
+java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£¯ä
+V	java:S125"<This block of commented-out lines of code should be removed.(‹éÉúÿÿÿÿ
+V	java:S125""<This block of commented-out lines of code should be removed.(—òŠ§şÿÿÿÿ
+m
+java:S6204>"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(õƒóıÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'org.hibernate.jdbc.Work'.(Ğ“òï
+R
+java:S1128"<Remove this unused import 'org.springframework.util.Assert'.(ü‰¤š
