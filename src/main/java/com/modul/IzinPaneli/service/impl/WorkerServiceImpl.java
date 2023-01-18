@@ -20,25 +20,20 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class WorkerServiceImpl implements WorkerService {
     private final WorkerRepository workerRepository;
-    private final LeaveRepository leaveRepository;
+
 
     @Override
     @Transactional
     public WorkerDto save(WorkerDto workerDto) {
-        //Assert.isNull(workerDto.getFirstName(), "Adi Alani zorunludur!");
+
         Worker worker = new Worker();
         worker.setFirstName(workerDto.getFirstName());
         worker.setLastName(workerDto.getLastName());
         worker.setIzinDurum(workerDto.getIzinDurum());
+        worker.setUsedLeaveDay(workerDto.getUsedLeaveDay());
+        worker.setLeaveDay(workerDto.getLeaveDay());
         Worker workerDb = workerRepository.save(worker);
-       /* List<WorkerLeaveInfo> liste = new ArrayList<>();
-        workerDto.getIzinBilgileri().forEach(item -> {
-            WorkerLeaveInfo workerLeaveInfo = new WorkerLeaveInfo();
-            workerLeaveInfo.setLeaveDay(5);
-            workerLeaveInfo.setUsedLeaveDay(0);
-            liste.add(workerLeaveInfo);
-        });
-        leaveRepository.saveAll(liste);*/
+
         workerDto.setWorkerId(workerDb.getWorkerId());
         return workerDto;
     }
@@ -58,8 +53,8 @@ public class WorkerServiceImpl implements WorkerService {
             workerDto.setFirstName(it.getFirstName());
             workerDto.setLastName(it.getLastName());
             workerDto.setIzinDurum(it.getIzinDurum());
-            workerDto.setIzinDurum(it.getIzinBilgileri().stream().map(WorkerLeaveInfo::getWorker)
-                    .collect(Collectors.toList()).toString());
+            workerDto.setUsedLeaveDay(it.getUsedLeaveDay());
+            workerDto.setLeaveDay(it.getLeaveDay());
             workerDtos.add(workerDto);
         });
         return workerDtos;

@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 @Entity
-@Table(name = "worker_info")
+@Table(name = "worker_details")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -25,7 +25,10 @@ public class Worker implements Serializable {
 
     @Column(name = "izinDurum", length = 50)
     private String izinDurum;
-
+    @Column(name = "usedLeaveDay", nullable = false)
+    private int usedLeaveDay;
+    @Column(name = "leaveDay", nullable = false)
+    private int leaveDay;
     @OneToMany
     @JoinColumn(name = "worker_leave_id")
     private List<WorkerLeaveInfo> izinBilgileri;

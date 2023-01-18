@@ -1,13 +1,15 @@
 
 —
-java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(β¥ÿν
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(β¥ÿν
 —
-java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£―δ
-V	java:S125"<This block of commented-out lines of code should be removed.(‹ιΙϊÿÿÿÿ
-V	java:S125""<This block of commented-out lines of code should be removed.(—ς§ώÿÿÿÿ
-m
-java:S6204>"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(υƒσύÿÿÿÿ
+java:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£―δ
+^
+java:S1128"HRemove this unused import 'com.modul.IzinPaneli.entity.WorkerLeaveInfo'.(Εκασ
+\
+java:S1128"FRemove this unused import 'com.modul.IzinPaneli.repo.LeaveRepository'.(΄¶‰
 J
 java:S1128"4Remove this unused import 'org.hibernate.jdbc.Work'.(Π“ςο
 R
 java:S1128"<Remove this unused import 'org.springframework.util.Assert'.(ό‰¤
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(ΣσΊ΄ϊÿÿÿÿ

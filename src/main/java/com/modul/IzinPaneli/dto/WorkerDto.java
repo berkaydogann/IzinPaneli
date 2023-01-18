@@ -13,6 +13,7 @@ public class WorkerDto {
     private long workerId;
     private String firstName;
     private String lastName;
-    private String izinDurum;
-    //private List<WorkerLeaveInfo> izinBilgileri;
+    private String izinDurum = "Onay Bekleniyor";
+    private int usedLeaveDay;
+    private int leaveDay;
 }
